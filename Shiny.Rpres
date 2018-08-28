@@ -1,0 +1,45 @@
+Coursera Shiny Assignment
+========================================================
+author: Chitrangad Singh
+date: 08/27/2018
+autosize: true
+
+Shiny App with Slidify
+========================================================
+
+1. The app shows basic Shiny functionality for Cars MPG Prediction
+2. There is an interactive graph to observe predicted value based on input data
+
+
+
+summary of Data plotted
+========================================================
+
+```{r warning=FALSE, message=FALSE}
+summary(mtcars)
+```
+
+
+Plot showing relation between Horse Power and MPG of cars
+========================================================
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+data(mtcars)
+plot(x = mtcars$hp,y = mtcars$mpg,xlab="Horse Power",ylab="MPG")
+```
+
+
+Shiny App
+========================================================
+
+Please visit following url to see the app in action.
+
+https://chitrangad.shinyapps.io/Coursera-Shiny-Project/
+
+
+Github Repo for App and slides
+========================================================
+
+Please visit following link for github code base
+
+https://github.com/chitrangad/Slidify-Shiny.git
